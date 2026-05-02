@@ -1,37 +1,30 @@
 {
-  "name": "2giosangmitom.is-a.dev",
-  "type": "module",
+  "name": "portfolio",
   "private": true,
-  "version": "3.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
     "build": "nuxt build",
+    "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint ."
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check"
   },
   "dependencies": {
-    "@nuxt/content": "^3.13.0",
-    "@nuxt/eslint": "^1.15.2",
-    "@nuxt/icon": "^2.2.1",
-    "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.7.0",
-    "@nuxtjs/robots": "^6.0.8",
-    "@nuxtjs/sitemap": "^8.0.14",
-    "eslint": "^10.2.1",
-    "motion-v": "^2.2.1",
-    "nuxt": "^4.4.2",
-    "overlayscrollbars": "^2.15.1",
+    "@nuxt/content": "3.13.0",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "^4.7.1",
+    "better-sqlite3": "^12.9.0",
+    "nuxt": "^4.4.4",
     "tailwindcss": "^4.2.4",
-    "typescript": "^6.0.3",
     "vue": "^3.5.33",
-    "vue-router": "^5.0.6",
-    "zod": "^4.3.6"
+    "vue-router": "^5.0.6"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.2.11",
-    "@iconify-json/lucide": "^1.2.104",
-    "@iconify-json/mdi": "^1.2.3"
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0"
   }
 }
