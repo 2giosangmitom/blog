@@ -2,11 +2,19 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/content"],
-  css: ["~/assets/css/main.css"],
-  ui: {
-    experimental: {
-      componentDetection: true,
+  modules: [
+    "@unocss/nuxt",
+    "@nuxt/image",
+    "@nuxt/content",
+    "@nuxt/fonts",
+    "@nuxt/hints",
+    "@nuxt/a11y",
+    "motion-v/nuxt",
+    "@vueuse/nuxt",
+  ],
+  typescript: {
+    tsConfig: {
+      include: ["uno.config.ts", "content.config.ts"],
     },
   },
 });

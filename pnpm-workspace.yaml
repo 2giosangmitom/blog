@@ -2,5 +2,8 @@ allowBuilds:
   "@parcel/watcher": false
   better-sqlite3: true
   esbuild: false
-  sharp: false
+  sharp: true
   vue-demi: false
+
+autoInstallPeers: true
+shamefullyHoist: true

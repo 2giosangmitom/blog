@@ -61,22 +61,21 @@ export default defineContentConfig({
         }),
         hero: z.object({
           title: z.string(),
+          subtitle: z.string(),
           description: z.string(),
           image: z.string().optional(),
         }),
         about: z.object({
           title: z.string(),
           description: z.string(),
+          image: z.string().optional(),
         }),
-        experience: z.object({
+        skills: z.object({
           title: z.string(),
-          items: z.array(
+          categories: z.array(
             z.object({
               name: z.string(),
-              position: z.string(),
-              startDate: z.coerce.date(),
-              endDate: z.coerce.date().optional(),
-              description: z.string(),
+              items: z.array(z.string()),
             }),
           ),
         }),
