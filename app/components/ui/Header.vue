@@ -11,7 +11,7 @@ defineProps<{
     <AppLogo />
 
     <nav class="space-x-2xl">
-      <UiButton v-for="link in items" :key="link.to" asChild>
+      <UiButton v-for="link in items" :key="link.to" as-child>
         <NuxtLink :to="link.to">
           {{ link.label }}
         </NuxtLink>

@@ -1,0 +1,72 @@
+:root {
+  /* Semantic colors */
+  --ui-primary: theme("colors.orange.500");
+  --ui-secondary: theme("colors.gray.500");
+  --ui-success: theme("colors.green.500");
+  --ui-info: theme("colors.blue.500");
+  --ui-warning: theme("colors.yellow.500");
+  --ui-error: theme("colors.red.500");
+
+  /* Text colors */
+  --ui-text-dimmed: theme("colors.neutral.400");
+  --ui-text-muted: theme("colors.neutral.500");
+  --ui-text-toned: theme("colors.neutral.600");
+  --ui-text: theme("colors.neutral.700");
+  --ui-text-highlighted: theme("colors.neutral.900");
+  --ui-text-inverted: theme("colors.neutral.50");
+
+  /* Background colors */
+  --ui-bg: theme("colors.neutral.50");
+  --ui-bg-muted: theme("colors.neutral.100");
+  --ui-bg-elevated: theme("colors.neutral.100");
+  --ui-bg-accented: theme("colors.neutral.200");
+  --ui-bg-inverted: theme("colors.neutral.900");
+
+  /* Border colors */
+  --ui-border: theme("colors.neutral.200");
+  --ui-border-muted: theme("colors.neutral.200");
+  --ui-border-accented: theme("colors.neutral.300");
+  --ui-border-inverted: theme("colors.neutral.900");
+
+  /* Radius */
+  --ui-radius: 0.25rem;
+
+  /* Layout */
+  --ui-container: 80rem;
+  --ui-header-height: 4rem;
+}
+
+:root.dark {
+  /* Semantic colors */
+  --ui-primary: theme("colors.orange.400");
+  --ui-secondary: theme("colors.gray.400");
+  --ui-success: theme("colors.green.400");
+  --ui-info: theme("colors.blue.400");
+  --ui-warning: theme("colors.yellow.400");
+  --ui-error: theme("colors.red.400");
+
+  /* Text colors */
+  --ui-text-dimmed: theme("colors.neutral.500");
+  --ui-text-muted: theme("colors.neutral.400");
+  --ui-text-toned: theme("colors.neutral.300");
+  --ui-text: theme("colors.neutral.200");
+  --ui-text-highlighted: theme("colors.neutral.50");
+  --ui-text-inverted: theme("colors.neutral.900");
+
+  /* Background colors */
+  --ui-bg: theme("colors.neutral.900");
+  --ui-bg-muted: theme("colors.neutral.800");
+  --ui-bg-elevated: theme("colors.neutral.800");
+  --ui-bg-accented: theme("colors.neutral.700");
+  --ui-bg-inverted: theme("colors.neutral.50");
+
+  /* Border colors */
+  --ui-border: theme("colors.neutral.800");
+  --ui-border-muted: theme("colors.neutral.700");
+  --ui-border-accented: theme("colors.neutral.700");
+  --ui-border-inverted: theme("colors.neutral.50");
+}
+
+body {
+  @apply antialiased text-default bg-default;
+}
