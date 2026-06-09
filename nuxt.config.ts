@@ -1,10 +1,11 @@
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   modules: [
-    "@unocss/nuxt",
     "@nuxt/image",
     "@nuxt/content",
     "@nuxt/fonts",
@@ -15,7 +16,11 @@ export default defineNuxtConfig({
   ],
   typescript: {
     tsConfig: {
-      include: ["uno.config.ts", "content.config.ts"],
+      include: ["content.config.ts"],
     },
   },
+  vite: {
+    plugins: [tailwindcss()],
+  },
+  extends: ["./src/volt"],
 });
