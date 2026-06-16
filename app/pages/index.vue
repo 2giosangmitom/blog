@@ -7,6 +7,5 @@ useSeoMeta({
 <template>
   <div>
     <span>Home page</span>
-    <VoltButton>Ngon luon</VoltButton>
   </div>
 </template>

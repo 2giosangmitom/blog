@@ -22,5 +22,4 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  extends: ["./src/volt"],
 });
