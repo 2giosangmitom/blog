@@ -2,6 +2,12 @@
 useSeoMeta({
   titleTemplate: "%s - Vo Quang Chien",
 });
+
+useHeadSafe({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
 </script>
 
 <template>

@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <div>
-    <span>Home page</span>
-  </div>
+  <main>
+    <h1>Home page</h1>
+  </main>
 </template>
