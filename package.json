@@ -22,17 +22,18 @@
     "@nuxt/image": "^2.0.0",
     "@tailwindcss/vite": "^4.3.1",
     "@vueuse/nuxt": "14.3.0",
+    "better-sqlite3": "^12.11.1",
     "motion-v": "^2.3.0",
     "nuxt": "^4.4.8",
-    "shaders": "^2.5.131",
+    "shaders": "^2.5.132",
     "tailwind-merge": "^3.6.0",
     "tailwind-variants": "^3.2.2",
     "tailwindcss": "^4.3.1",
-    "vue": "^3.5.38",
+    "vue": "^3.5.39",
     "vue-router": "^5.1.0"
   },
   "devDependencies": {
-    "oxfmt": "^0.55.0",
-    "oxlint": "^1.70.0"
+    "oxfmt": "^0.56.0",
+    "oxlint": "^1.71.0"
   }
 }

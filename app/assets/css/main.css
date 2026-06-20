@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-mono: "JetBrainsMono";
+
+  /* Colors */
+  --color-accent: var(--color-green-400);
+  --color-error: var(--color-red-400);
+  --color-muted: var(--color-neutral-800);
+}
+
+html {
+  background-color: var(--color-neutral-950);
+  color: var(--color-neutral-200);
+}

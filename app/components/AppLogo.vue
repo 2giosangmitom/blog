@@ -1,3 +1,3 @@
 <template>
-  <span>2giosangmitom</span>
+  <span class="font-bold text-sm">2giosangmitom</span>
 </template>
