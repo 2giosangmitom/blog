@@ -12,26 +12,26 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/content": "^3.13.0",
-    "@nuxt/eslint": "^1.15.2",
-    "@nuxt/icon": "^2.2.1",
+    "@nuxt/content": "^3.15.0",
+    "@nuxt/eslint": "^1.16.0",
+    "@nuxt/icon": "^2.3.1",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.7.0",
-    "@nuxtjs/robots": "^6.0.8",
-    "@nuxtjs/sitemap": "^8.0.14",
-    "eslint": "^10.2.1",
-    "motion-v": "^2.2.1",
-    "nuxt": "^4.4.2",
-    "overlayscrollbars": "^2.15.1",
-    "tailwindcss": "^4.2.4",
+    "@nuxt/ui": "^4.9.0",
+    "@nuxtjs/robots": "^6.1.2",
+    "@nuxtjs/sitemap": "^8.2.2",
+    "eslint": "^10.6.0",
+    "motion-v": "^2.3.0",
+    "nuxt": "^4.4.8",
+    "overlayscrollbars": "^2.16.0",
+    "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
-    "vue": "^3.5.33",
-    "vue-router": "^5.0.6",
-    "zod": "^4.3.6"
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.2.11",
-    "@iconify-json/lucide": "^1.2.104",
+    "@iconify-json/lucide": "^1.2.116",
     "@iconify-json/mdi": "^1.2.3"
   }
 }
