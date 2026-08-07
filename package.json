@@ -21,7 +21,7 @@
     "@nuxtjs/sitemap": "^8.2.2",
     "eslint": "^10.6.0",
     "motion-v": "^2.3.0",
-    "nuxt": "^4.4.8",
+    "nuxt": "^4.5.1",
     "overlayscrollbars": "^2.16.0",
     "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
